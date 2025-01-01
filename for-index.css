@@ -1,8 +1,22 @@
-*{
-    background-color: white;
-}
-
 .nav {
     display: flex;
+    justify-content: center;
+}
+.title {
+    background-color: #2382ffc2;
+}
+.flower {
+    display: flex;
+    justify-content: center;
+}
+
+.mem-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.mem-text {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
