@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="eng">
-<!--below are the special information for the browser-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My 2024 memorial</title>
     <link rel="stylesheet" href="for-index.css">
+    <!--branch animation~~-->
+    <style>    
+        @keyframes dim-dark {
+            0%, 100% {opacity: 0;}
+            50% {opacity: 1;}
+        }
+    </style>
 </head>
 <body>
-    <!--header tag is showing 2 different things, first the header title of the web page and secondly the navigation section the page-->
     <header>
+        <!--top header(title)~~-->
         <div class="title"> 
             <h1 class="h1">
                 <font color="white">
@@ -17,16 +23,13 @@
                         <div class="mem-text">
                                 <sup>.</sup>~<b>My Memorials</b>!~<sup>.</sup>
                         </div>
-                        <!-- <div class="img-cont">
-                            <img src="me1.png" height="100%" alt="my picture-1">
-                            <img src="me2.png" height="100%" alt="my picture-2">                           
-                        </div> -->
                     </div>  
                 </font>
             </h1>
             <hr style="border: 2px solid black">
         </div>
-        <div>  <!--navigation section-->
+        <!--bottom header(navigation)~~-->
+        <div>  
             <div class="sec-title">
                 <h2 align="center">
                     <u>~Navigation~</u>
@@ -34,25 +37,30 @@
             </div>
             <div class="nav">
                 <nav> 
-                    <ul class="ul">  <!--it defines the dots-->
+                    <ul class="ul"> 
                         <li class="nav-li"><a href="#home"><b>Home</b></a></li>  <!--inside of ul are the list and inside of that are the links(relative )-->
                         <li class="nav-li"><a href="#about"><b>About</b></a></li>
                         <li class="nav-li"><a href="#contact"><b>Contact</b></a></li>
                     </ul>
                 </nav>
-            </div>
-            
+            </div>            
         </div>
     </header>
-    <!-- <hr style="width: 300px;"> -->
     <hr style="height: 2px;">
-    <section id="home">  <!--first section-->
+    <!--sections-->
+    <section id="home"><!--home section-->
         <div>
             <div class="sec-title">
                 <u><h2 align="center"><sup><b>.</b></sup>Home Section<sup><b>.</b></sup></h2></u>
-            </div>
-            <font face="arial" size="6" color="grey">{<strong><u class="sec-branch">Introduction Reference</u></strong>}~</font>
-            <hr width="1000px;">
+
+            </div> <!--name of the branch-1(Introduction Reference)-->
+            <font face="arial" size="6" color="grey">
+                <div class="branch-anime">
+                    {<strong><u class="sec-branch">Introduction Reference</u></strong>}~
+                </div>
+            </font>
+            <!--.....-->
+            <hr width="1000px;"> <!--content of the branch-1-->
             <div class="write">
                 <i><p><big><b>~</b></big>
                         Hello world! "Remember 24!".It was a great season! It is not appropriate to say the 2024 season a trash.
@@ -66,13 +74,20 @@
         </div>
     </section>
     <hr style="height: 2px;">
-    <section id="about"> <!--second section-->
+    <!--.....-->
+    <section id="about"> <!--about section-->
         <div>
             <div class="sec-title">
                 <u><h2 align="center"><sup><b>.</b></sup>About Section<sup><b>.</b></sup></h2></u>
             </div>
-            <font face="arial" size="6" color="grey">{<strong><u class="sec-branch">Description</u></strong>}~</font>
-            <hr width="1000px;">
+            <!--.....-->
+            <font face="arial" size="6" color="grey"> <!--name of the branch-1(Description)-->
+                <div class="branch-anime">
+                    {<strong><u class="sec-branch">Description</u></strong>}~
+                </div>
+            </font>
+            <!--.....-->
+            <hr width="1000px;"> <!--content of the branch-1-->
             <div class="write">
                 <i><p><big><b>~</b></big>
                         This is a simple web-site to share you my <b>2024</b> memories and events.I thought that making a web-site where
@@ -87,13 +102,20 @@
         </div>
     </section>
     <hr style="height: 2px;">
+    <!--.....-->
     <section id="contact"> <!--third section-->
         <div>
             <div class="sec-title">
                 <u><h2 align="center"><sup><b>.</b></sup>Contact Section<sup><b>.</b></sup></h2></u>
             </div>
-            <font face="arial" size="6" color="grey">{<strong><u class="sec-branch">Contact</u></strong>}~</font>
-            <hr width="1000px;">
+            <!--.....-->
+            <font face="arial" size="6" color="grey"><!--name of the branch-1-->
+                <div class="branch-anime">
+                    {<strong><u class="sec-branch">Contact</u></strong>}~
+                </div>
+            </font>
+            <!--.....-->
+            <hr width="1000px;"> <!--content of the branch-1-->
             <div clsss="write">
                 <i><p><big><b>~</b></big>
                     Contact us at here-><b><strong>9954722871</strong></b> or <b><strong>7002246937</strong></b>.
@@ -102,16 +124,16 @@
         </div>
     </section>
     <hr style="height: 0px; border: 1px solid black">
-    <!--id is an attribute and is used to show the identification of that section which is some extra information for that section-->
+    <!--footer-->
     <footer>
         <div>
             <b><p>&copy; 2025 My Simple Website!</p></b>
-            <h3>
+            <!--.....-->
+            <h3> <!--this web-site's rating page link-->
                 <b>Rate here->> <a href="rate.html">My web-site's rating!</a></b>
             </h3>
         </div>
     </footer>
     <hr style="border: 3px solid black">
-    <!-- <hr style="border: 2px solid black"> -->
 </body>
 </html>
