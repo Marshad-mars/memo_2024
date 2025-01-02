@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
 .nav {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 .title {
     background-color: #2382ffc2;
@@ -11,12 +14,31 @@
 }
 
 .mem-cont {
-    display: flex;
+    display: flex;   /*here flex is used to make the items in the header section more flexible to te web-site*/ 
     flex-direction: row;
 }
 
 .mem-text {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+}
+.ul {
+    display: flex;
+    flex-direction: row;
+}
+.nav-li {
+    margin: 0px 10px;
+    font-family: "Rubik Vinyl", serif;
+}
+
+.mem-cont{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.mem-cont:hover {
+    height: 200px;
 }
