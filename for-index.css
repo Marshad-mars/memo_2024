@@ -58,10 +58,8 @@
 }
 .sec-branch {
     font-family: "Rubik Vinyl", serif;
-    /* font-weight: bold; */
-    /* animation: dim-dark 2s infinite; */
 }
 .branch-anime {
     font-weight: bold;
-    animation: dim-dark 2s infinite;
+    animation: dim-dark 3s infinite;
 }
