@@ -13,18 +13,19 @@
     display: flex;
     justify-content: center;
 }
-
 .mem-cont {
     display: flex;   /*here flex is used to make the items in the header section more flexible to te web-site*/ 
     flex-direction: row;
 }
-
 .mem-text {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Rubik Vinyl", serif;
     font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy; 
+    text-underline-offset: 8px;
 }
 .ul {
     display: flex;
@@ -34,7 +35,6 @@
     margin: 0px 10px;
     font-family: "Rubik Vinyl", serif;
 }
-
 .mem-cont{
     display: flex;
     justify-content: center;
@@ -43,7 +43,6 @@
     height: 100px;
     transition: all 0.2s ease-in-out;
 }
-
 .mem-cont:hover,
 .mem-cont:active{
     height: 200px;
@@ -56,4 +55,7 @@
 }
 .sec-title {
     font-family: "Bebas Neue", serif;
+}
+.sec-branch {
+    font-family: "Rubik Vinyl", serif;
 }
