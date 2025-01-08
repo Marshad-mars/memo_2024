@@ -25,7 +25,7 @@
     font-size: 50px;
     text-decoration-line: underline;
     text-decoration-style: wavy; 
-    text-underline-offset: 8px;
+    text-underline-offset: 8px;  /*Used to give some spacings between the underlne and the content of the div container*/
 }
 .ul {
     display: flex;
